@@ -24,4 +24,12 @@ public class Scripts : MonoBehaviour
             transform.Translate(Vector2.right * velocity * Time.deltaTime);
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "DeathArea")
+        {
+            Time.timeScale = 0;
+        }
+        
+    }
 }
