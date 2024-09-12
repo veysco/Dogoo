@@ -7,6 +7,8 @@ TagManager:
   - DeathArea
   - Point
   - Logic
+  - redCircle
+  - greenCircle
   layers:
   - Default
   - TransparentFX
