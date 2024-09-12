@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Spawner : MonoBehaviour
 {
     public GameObject circle;
     public float spawnWidth = 7.5f;
