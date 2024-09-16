@@ -10,8 +10,8 @@ public class CircleScript : MonoBehaviour
     
     private void Start()
     {
-        int dice = Random.Range(0, 2);
-        if (dice == 1)
+        int greenOrRed = Random.Range(0, 2);
+        if (greenOrRed == 1)
         {
             SpriteRenderer.color = Color.green;
             gameObject.tag = "greenCircle";
@@ -27,7 +27,11 @@ public class CircleScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (transform.position.y < -7)
+        {
+            // Destroy the GameObject
+            Destroy(gameObject);
+        }
     }
  
 }
