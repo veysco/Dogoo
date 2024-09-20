@@ -62,6 +62,7 @@ Thumbs.db.meta
 # VS Code
 *.vscode
 
+!Graphic/
 ![Aa]*.meta
 !Assets/**/*.unity
 !ProjectSettings/
