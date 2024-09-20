@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class GUIScript : MonoBehaviour
 {
+    
     public PlayerScript ps;
+    
     Text scoreText;
 
     // Start is called before the first frame update
